@@ -6,9 +6,12 @@ authors = ["jared.rimmer"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+kafka-python = "^2.0.2"
+dataclasses-avroschema = "^0.28.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+black = "^22.3.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
